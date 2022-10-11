@@ -1,5 +1,4 @@
 header {
-<<<<<<< HEAD
     background: #bbbbbb;
     padding: 20px 0;
 }
@@ -103,7 +102,7 @@ form {
 }
 
 form label,
-form p {
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -118,129 +117,22 @@ form p {
 
 .checkbox {
     margin: 20px 0;
-=======
-    background: #cccccc;
-    padding: 20px 0;
 }
 
-.caixa {
-    position: relative;
-    width: 90%;
-    margin: auto;
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-    padding-left: 190px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: black;
+.enviar {
+    width: 40%;
+    padding: 15px 0px;
+    background-color: orange;
+    color: white;
     font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-}
+    font-size: 18px;
+    border: medium none;
+    border-radius: 5px;
+    transition: all 1s ease 0s;
+    cursor: pointer;
+  }
 
-nav a:hover {
-    color: #c78c19;
-    text-decoration: underline;
-}
-
-.banner {
-    display: inline-block;
-    width: 50%;
-}
-
-.principal {
-    display: inline-block;
-    background: #dadada;
-    padding: 20px;
-}
-
-.sobre {
-    display: inline-block;
-    width: 45%;
-    margin:2%;
-    text-align: center;
-    vertical-align: top;
-}
-
-.titulo_centralizado {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 10px;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: red;
-}
-
-.itens {
-    font-style: italic;
-    font-size: 20px;
-}
-
-.beneficios {
-    background: #ffff;
-    padding: 10px 20px 20px;
-}
-
-.beneficios h2 {
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
-    margin: 0 0 10px 0;
-}
-
-.beneficios ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 5%;
-    margin-left: 20%;
-}
-
-.beneficios li {
-    text-align: right;
-    font-weight: bolder;
-    margin: 30% 0;
-}
-
-.beneficios li:hover {
-    color: #c78c19;
-    text-decoration: underline;
-}
-.imagembeneficios {
-    display: inline-block;
-    width: 50%;
-}
-
-footer {
-    text-align: center;
-    background: url("../imagens/bg.jpg");
-    padding: 40px 0;
-}
-
-.copyright {
-    color: #ffff;
-    font-size: 13px;
-    margin: 20px 0 0;
->>>>>>> 983c1de529dcf59c60f1a1403bcf8b44bdcfcd20
-}
+  .enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+  }
